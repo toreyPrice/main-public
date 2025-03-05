@@ -1,5 +1,10 @@
 window.onload = function() {
   var data = JSON.parse(document.getElementById("graph-data").textContent);
+  var diiv = document.getElementById("graph-div");
+  
+  diiv.insertAdjacentHTML('beforeend', `
+    <div id="chart-2" style="width:600px;height:250px;display:inline-block;"></div>
+    `)
 
   Plotly.newPlot(document.getElementById('tester'), 
     [{x: data.g1.x1,y: data.g1.y1,type: 'line'},
