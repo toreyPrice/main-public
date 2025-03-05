@@ -1,6 +1,6 @@
 window.onload = function() {
   var data = JSON.parse(document.getElementById("graph-data").textContent);
-  var div = JSON.parse(document.getElementById("graph-div").textContent);
+  var div = document.getElementById("graph-div");
   div.insertAdjacentHTML('beforeend', `
     <div id="chart-1" style="width:600px;height:250px;display:inline-block;"></div>
     <div id="chart-2" style="width:600px;height:250px;display:inline-block;"></div>
