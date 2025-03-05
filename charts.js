@@ -1,3 +1,6 @@
+
+var data = document.getElementById("graph-data").getAttribute('data');
+
 Plotly.newPlot(document.getElementById('tester'), 
   [{x: data.g1.x1,y: data.g1.y1,type: 'line'},
   {x: data.g1.x1,y: data.g1.y2,type: 'line'}], 
