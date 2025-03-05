@@ -1,10 +1,10 @@
 window.onload = function() {
   var data = JSON.parse(document.getElementById("graph-data").textContent);
   var div = document.getElementById("graph-div");
-  div.insertAdjacentHTML('beforeend', `
-    <div id="chart-1" style="width:600px;height:250px;display:inline-block;"></div>
-    <div id="chart-2" style="width:600px;height:250px;display:inline-block;"></div>
-    `)
+  // div.insertAdjacentHTML('beforeend', `
+  //   <div id="chart-1" style="width:600px;height:250px;display:inline-block;"></div>
+  //   <div id="chart-2" style="width:600px;height:250px;display:inline-block;"></div>
+  //   `)
 
   Plotly.newPlot(document.getElementById('chart-1'), 
     [{x: data.g1.x1,y: data.g1.y1,type: 'line'},
