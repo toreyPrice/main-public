@@ -1,5 +1,5 @@
 
-var data = document.getElementById("graph-data").getAttribute('data');
+var data = JSON.parse(document.getElementById("graph-data").innerHTML);
 
 Plotly.newPlot(document.getElementById('tester'), 
   [{x: data.g1.x1,y: data.g1.y1,type: 'line'},
