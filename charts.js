@@ -12,4 +12,4 @@ function Test(data){
     {displayModeBar: false}
     );
   }
-document.onload = Test(data)
+// document.onload = Test(data)
