@@ -2,8 +2,8 @@ window.onload = function() {
   var data = JSON.parse(document.getElementById("graph-data").textContent);
   var diiv = document.getElementById("graph-div");
   
-  var st = data.style
-  var el = data.elements
+  var st = template.style
+  var el = template.elements
   var ch = data.charts
 
   for (let i = 0; i < st.length; ++i) {
