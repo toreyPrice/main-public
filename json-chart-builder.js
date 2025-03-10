@@ -1,5 +1,7 @@
 window.onload = function() {
-  sleep(1000);
+
+  import { template } from 'https://toreyprice.github.io/main-public/json-chart-builder-template-example.js'
+
   var data = JSON.parse(document.getElementById("graph-data").textContent);
   var template = JSON.parse(template);
   var diiv = document.getElementById("graph-div");
