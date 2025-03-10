@@ -117,4 +117,3 @@ var template = {
       {"index":26,"type":"div","id":"i-20-2-2-3","class":"c-17-2-3","parent":"i-20-2-2","html":""}
       ]
   }
-}
