@@ -1,5 +1,5 @@
 window.onload = function() {
-  document.getElementById("graph-data-template").textContent = { 
+  document.getElementById("graph-data-template").textContent = `{ 
     "style":[
       {"class":"c-10","settings":"width: 1200px; height: 130px; background-color: #f0f2f5;display: flex;justify-content: space-between;"},
       {"class":"c-10-1","settings":"width: 33%; height: 145px; display: inline-block;"},
@@ -117,5 +117,5 @@ window.onload = function() {
       {"index":30,"type":"div","id":"i-20-2-2-2","class":"c-10-1-2-2","parent":"i-20-2-2","html":"Average total change"},
       {"index":26,"type":"div","id":"i-20-2-2-3","class":"c-17-2-3","parent":"i-20-2-2","html":""}
       ]
-  }
+  }`
 }
