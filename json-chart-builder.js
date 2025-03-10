@@ -1,4 +1,5 @@
 window.onload = function() {
+  sleep(1000);
   var data = JSON.parse(document.getElementById("graph-data").textContent);
   var template = JSON.parse(template);
   var diiv = document.getElementById("graph-div");
