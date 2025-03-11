@@ -1,13 +1,10 @@
 window.onload = function() {
 
-  import { template } from 'https://toreyprice.github.io/main-public/json-chart-builder-template-example.js'
-
   var data = JSON.parse(document.getElementById("graph-data").textContent);
-  var template = JSON.parse(template);
   var diiv = document.getElementById("graph-div");
   
-  var st = template.style
-  var el = template.elements
+  var st = data.style
+  var el = data.elements
   var ch = data.charts
 
   for (let i = 0; i < st.length; ++i) {
