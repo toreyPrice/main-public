@@ -1,13 +1,11 @@
 window.onload = function() {
 
-  alert(jsonObject.style)
-
-  var data = JSON.parse(document.getElementById("graph-data").textContent);
+  // var data = JSON.parse(document.getElementById("graph-data").textContent);
   var diiv = document.getElementById("graph-div");
   
-  var st = data.style
-  var el = data.elements
-  var ch = data.charts
+  var st = jsonObject.style
+  var el = jsonObject.elements
+  var ch = jsonObject.charts
 
   for (let i = 0; i < st.length; ++i) {
     var s = document.createElement('style');
